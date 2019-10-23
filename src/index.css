@@ -1,0 +1,18 @@
+body
+{
+    background: #ededff;
+    margin: auto;
+    width: 500px;
+}
+.About {
+    background: coral;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#play {
+    height: 30px;
+    margin: 10px;
+    font-size: 20px;
+}
