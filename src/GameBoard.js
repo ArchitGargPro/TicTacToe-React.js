@@ -61,9 +61,8 @@ class GameBoard extends Component {
 
     play = (e) => {
         // if (!this.state.won) {
-        console.log(e);
         const a = this.getOX();
-
+        console.log(a);
         this.setState({
                 moves: {
                     ...this.state.moves,
@@ -122,11 +121,17 @@ class Square extends React.Component {
         }
     };
 
+    getVal = () => {
+        if (this.props.state[this.props.id] === ' ') {
+            return <div>&nbsp;</div>;
+        } else {
+            return this.props.state[this.props.id];
+        }
+    };
+
     render() {
         return (
-            <button className="square" onClick={this.click} >
-                {this.props.state[this.props.id]}
-            </button>
+            <button className="square" onClick={this.click} > {this.getVal()} </button>
         );
     }
 }
