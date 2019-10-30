@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4848de95-fad0-4f1b-986c-74b8dfee682d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/getInput.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameBoard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameBoard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameBoard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GetInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GetInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Status.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Status.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToolBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToolBar.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +36,11 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -60,5 +70,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

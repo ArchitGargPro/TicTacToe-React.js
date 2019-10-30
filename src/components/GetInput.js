@@ -24,10 +24,14 @@ class GetInput extends Component {
             <div className="InputBox">
                 <form onSubmit={this.submit}>
                     <h2>{this.props.message}</h2>
-                    <label htmlFor="Player1">Player 1 </label>
-                    <input type="text" id="player1" onChange={this.handleChange}/><br/>
-                    <label htmlFor="Player2">Player 2 </label>
-                    <input type="text" id="player2" onChange={this.handleChange}/><br/>
+                    <div className="box">
+                        <label htmlFor="Player1">Player 1 </label>
+                        <input type="text" id="player1" onChange={this.handleChange}/>
+                    </div>
+                    <div className="box">
+                        <label htmlFor="Player2">Player 2 </label>
+                        <input type="text" id="player2" onChange={this.handleChange}/><br/>
+                    </div>
                     <button type="submit" id="play" value="play" onClick={this.submit}>PLAY</button>
                 </form>
                 <hr />

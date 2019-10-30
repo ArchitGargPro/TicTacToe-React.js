@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import GetInput from "./GetInput"
-import About from "./About";
-import Status from "./Status";
-import ToolBar from "./ToolBar";
-import GameBoard from "./GameBoard";
+import GetInput from "./components/GetInput"
+import About from "./components/About";
+import Status from "./components/Status";
+import ToolBar from "./components/ToolBar";
+import GameBoard from "./components/GameBoard";
 
 class App extends Component {
   state = {
